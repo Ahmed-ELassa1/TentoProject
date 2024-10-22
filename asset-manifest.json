@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TentoProject/static/css/main.fd7ff372.css",
+    "main.js": "/TentoProject/static/js/main.15470a30.js",
+    "static/media/cure.png": "/TentoProject/static/media/cure.1a4452ec95b231cef7d3.png",
+    "static/media/curr.png": "/TentoProject/static/media/curr.432d96d0b167793514b4.png",
+    "static/media/user.png": "/TentoProject/static/media/user.16d4e32ca122e2c539cc.png",
+    "index.html": "/TentoProject/index.html",
+    "main.fd7ff372.css.map": "/TentoProject/static/css/main.fd7ff372.css.map",
+    "main.15470a30.js.map": "/TentoProject/static/js/main.15470a30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd7ff372.css",
+    "static/js/main.15470a30.js"
+  ]
+}
