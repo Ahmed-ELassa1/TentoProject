@@ -1,0 +1,12 @@
+.trade {
+  overflow: hidden;
+}
+.first-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1100px) {
+  .first-wrapper {
+    flex-direction: column;
+  }
+}

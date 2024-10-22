@@ -1,0 +1,36 @@
+.user-container {
+  width: 100%;
+}
+.user-contain {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+@media (max-width: 992px) {
+  .user-contain {
+    flex-direction: column;
+  }
+}
+.user-contain > div {
+  width: 100%;
+}
+.user-form .form-control {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.file-label {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.pass-hint {
+  color: var(--parag-color);
+  font-size: 13px;
+}

@@ -1,0 +1,91 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  justify-content: center;
+}
+.form-container h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.7;
+  font-size: 25px;
+  color: var(--main-color);
+}
+.form-container .sign-form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  box-shadow: var(--card-shadow);
+}
+@media (max-width: 1100px) {
+  .form-container .sign-form {
+    width: 60%;
+  }
+}
+@media (max-width: 630px) {
+  .form-container .sign-form {
+    width: 80%;
+  }
+}
+.sign-form .form-control {
+  display: block;
+  width: 100%;
+  margin-top: 10px 0 5px 0;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.sign-form .btn-create {
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100%;
+  transition: 0.3s all ease-in-out;
+}
+.sign-form .btn-create:hover {
+  background-color: #174b88;
+}
+.sign-form input:focus {
+  outline: none;
+  border: 1px solid var(--main-color);
+}
+.form-group {
+  width: 100%;
+}
+.form-group .invalid-feedback {
+  color: #de3c3c;
+  font-size: 15px;
+}
+.form-group input.is-invalid {
+  border: 1px solid red;
+}
+.form-group label {
+  color: var(--parag-color);
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.form-group label span:nth-child(2) {
+  font-size: 14px;
+}
+.form-group .sign-lnk {
+  display: block;
+  text-align: center;
+  color: var(--parag-color);
+  margin-top: 15px;
+}
+.sign-lnk span {
+  color: var(--main-color);
+}

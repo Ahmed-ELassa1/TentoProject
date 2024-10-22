@@ -1,0 +1,55 @@
+.wallet-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 1100px) {
+  .wallet-content {
+    flex-direction: column;
+  }
+}
+.wallet-section {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1400px) {
+  .wallet-section {
+   flex-direction: column;
+  }
+}
+.wallet-section > div {
+  width: 39rem;
+  overflow-x: auto;
+}
+@media (max-width: 1400px) {
+  .wallet-section > div {
+    width: 100%;
+  }
+}
+.wallet-widget {
+  width: auto;
+}
+.thrd-section {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1400px) {
+  .thrd-section {
+   flex-direction: column;
+  }
+}
+.thrd-section >div {
+    width: 39rem;
+    overflow-x: auto;
+}
+@media (max-width: 1400px) {
+  .thrd-section > div {
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .last-sct {
+    overflow-x: auto;
+    /* display: block; */
+  }
+}

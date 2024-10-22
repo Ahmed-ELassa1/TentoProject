@@ -1,0 +1,29 @@
+.wallet-card {
+  box-shadow: var(--card-shadow);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+@media (max-width: 1100px) {
+  .wallet-card {
+    margin-top: 10px;
+  }
+}
+.wallet-card h2 {
+  color: var(--main-color);
+  font-size: large;
+}
+.wallet-card h3 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+.wallet-card span {
+  color: var(--parag-color);
+  margin-top: 10px;
+  letter-spacing: 1px;
+}

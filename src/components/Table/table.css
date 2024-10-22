@@ -1,0 +1,6 @@
+.main-table  tr:nth-child(odd) td:nth-child(4) {
+  color: red;
+}
+.main-table  tr:nth-child(even) td:nth-child(4) {
+  color: rgb(54, 179, 126);
+}

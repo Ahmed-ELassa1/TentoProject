@@ -1,0 +1,30 @@
+.balance-card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px ;
+  position: relative;
+  transition: .5s all ease-in-out;
+}
+.balance-card:hover {
+  transform: translateY(-10px);
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left-side .coin {
+  font-size: 18px;
+  color: var(--main-color);
+}
+.left-side span {
+  color: var(--parag-color);
+}
+.right-side img {
+  width: 70px;
+  height: 70px;
+}

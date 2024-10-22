@@ -1,0 +1,14 @@
+.profile-container {
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: var(--card-shadow);
+  margin-top: 20px;
+}
+.profile .breadcrumb {
+  padding-left: 10px;
+  color: #1c75bc;
+}
+.profile .breadcrumb span {
+  color: #1F2B73;
+}

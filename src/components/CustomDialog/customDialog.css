@@ -1,0 +1,49 @@
+.dialog {
+  background-color: #00000099;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  z-index: 13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog .dialog-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  .dialog .dialog-card {
+    width: 250px;
+    height: 450px;
+    overflow: scroll;
+  }
+}
+
+.item-config {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  animation: blowUpModalTwo .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  ;
+}
+
+@keyframes blowUpModalTwo {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

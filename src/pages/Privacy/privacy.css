@@ -1,0 +1,14 @@
+.privacy .tab-heading {
+  border-bottom: 0;
+}
+.privacy .privacy-txt {
+  color: var(--parag-color);
+  padding-left: 10px;
+}
+
+.privacy-p {
+  color: var(--parag-color);
+  padding: 20px 0;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #eee;
+}

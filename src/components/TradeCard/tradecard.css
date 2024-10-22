@@ -1,0 +1,65 @@
+.trade-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+  width: 20%;
+  margin-top: 20px;
+  box-shadow: var(--card-shadow);
+}
+@media (max-width: 1100px) {
+  .trade-card {
+    width: 100%;
+  }
+}
+.trade-card h2 {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.card-btn {
+  padding-top: 10px;
+}
+.card-btn h3 {
+  color: var(--parag-color);
+  margin: 10px 0;
+}
+.card-btn .transe {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.transe input {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+.transe input:focus {
+  outline: none;
+}
+.trade-card p {
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.trade-card span {
+  color: var(--main-color);
+  font-size: 14px;
+}
+.trade-card .exchange-btn {
+  padding: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  transition: .5s all ease-in-out;
+  margin: 20px 0;
+}
+.trade-card .exchange-btn:hover {
+  opacity: .9;
+}
+.trade-card .exchange-btn:focus {
+  outline: none;
+}
