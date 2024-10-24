@@ -1,5 +1,4 @@
 {
-  "homepage": "http://Ahmed-ELassa1.github.io/TentoProject",
   "name": "tendo",
   "version": "0.1.0",
   "private": true,
@@ -26,7 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy":"npm run build",
+    "predeploy":"set PUBLIC_URL=http://Ahmed-ELassa1.github.io/TentoProject && react-scripts build",
     "deploy":"gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
