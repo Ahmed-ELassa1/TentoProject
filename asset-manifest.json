@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "http://Ahmed-ELassa1.github.io/TentoProject /static/css/main.fd7ff372.css",
-    "main.js": "http://Ahmed-ELassa1.github.io/TentoProject /static/js/main.eee399b6.js",
-    "static/media/cure.png": "http://Ahmed-ELassa1.github.io/TentoProject /static/media/cure.1a4452ec95b231cef7d3.png",
-    "static/media/curr.png": "http://Ahmed-ELassa1.github.io/TentoProject /static/media/curr.432d96d0b167793514b4.png",
-    "static/media/user.png": "http://Ahmed-ELassa1.github.io/TentoProject /static/media/user.16d4e32ca122e2c539cc.png",
-    "index.html": "http://Ahmed-ELassa1.github.io/TentoProject /index.html",
-    "main.fd7ff372.css.map": "http://Ahmed-ELassa1.github.io/TentoProject /static/css/main.fd7ff372.css.map",
-    "main.eee399b6.js.map": "http://Ahmed-ELassa1.github.io/TentoProject /static/js/main.eee399b6.js.map"
+    "main.css": "/static/css/main.fd7ff372.css",
+    "main.js": "/static/js/main.d8dfa2f2.js",
+    "static/media/cure.png": "/static/media/cure.1a4452ec95b231cef7d3.png",
+    "static/media/curr.png": "/static/media/curr.432d96d0b167793514b4.png",
+    "static/media/user.png": "/static/media/user.16d4e32ca122e2c539cc.png",
+    "index.html": "/index.html",
+    "main.fd7ff372.css.map": "/static/css/main.fd7ff372.css.map",
+    "main.d8dfa2f2.js.map": "/static/js/main.d8dfa2f2.js.map"
   },
   "entrypoints": [
     "static/css/main.fd7ff372.css",
-    "static/js/main.eee399b6.js"
+    "static/js/main.d8dfa2f2.js"
   ]
 }
